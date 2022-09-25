@@ -6,22 +6,14 @@
 body{
  background-image: url(grpbg1.png);
     background-size: 100vw;
-
-    /* width: 1000px;
-    height: 200px;
-    border: 2px solid #ff0000;*/
-    
     background-repeat: no-repeat;
-    /* background: linear-gradient(170deg,#2E72DD,#2E72DD 54%,white 46%,white);
-    background: linear-gradient(170deg,#2E72DD,#2E72DD 56%,white 44%,white); */
-
+    font-family: 'Satoshi', sans-serif;
 }
 .top{
     width: 100%;
     background-position: center;
     background-size: cover;
     position: relative;
-  
   }
   nav{
     display: flex;
@@ -63,23 +55,15 @@ body{
     width:100%;
   }
   .container{
-    display: flex;
+    margin-left: 20%;
     flex-wrap: wrap; 
     justify-content: space-around;
   }
-  .coli img{
-    width: 5vw;
-    margin-left: -20%;
-  }
-  
   .col1{
     color: whitesmoke;
     flex-basis: 50%;
-    width:30% ;
-  }
-  .col1 img{
-    max-width:40%;
-    padding: 30px 0;
+    width:50% ;
+    margin-top: 4%;
   }
   .col1 h1{
     font-size: 30px;
@@ -91,14 +75,50 @@ body{
   }
   .col1 button{
     margin-top: 20px;
-    width: 100px;
+    width: 120px;
     height: 30px;
     border: none;
     border-radius: 5px;
   }
+  button a{
+    text-decoration: none;
+    color: black;
+  }
   .footer{
-    margin-top: 15%;
+    margin-left: 5%;
+    margin-top: 25%;
   }
+  .btn{
+     margin-left: 30%;
+  }
+  .btn button a{
+    text-decoration: none;
+    color: #011294;
+  }
+  .footer button{
+width: 103px;
+height: 25px;
+border-radius: 5px;
+font-family: 'Satoshi Variable';
+font-style: normal;
+font-weight: 700;
+font-size: 17px;
+border: 1px solid #011294;
+color: #011294;
+}
   .line1{
-
+     margin-left: 17%;
+     font-weight: bold;
   }
+  .line2{
+  margin-left: 5%; 
+  position: absolute;
+width:40%;
+height: 112px;
+font-family: 'Satoshi Variable';
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+text-align: center;
+color: #011294;
+}
